@@ -30,5 +30,21 @@ public class EjemplosCondicionales {
             contador -= 1;
         }
 
+        //for
+        for (int contador1 = 1; contador1 <= 10; contador1++){
+            System.out.println("en el for " + contador1);
+        }
+
+        //for para Recorrer un array
+        //int valores[] = new int[5];
+        int valores[] = {10, 20, 30, 40, 50};
+
+        for (int i = 0; i < valores.length; i++) {
+            System.out.println("En array posicion " + i + " --> " + valores[i]);
+        }
+
+        
+
+
     }
 }
