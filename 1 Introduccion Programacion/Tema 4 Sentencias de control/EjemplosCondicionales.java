@@ -40,8 +40,41 @@ public class EjemplosCondicionales {
         int valores[] = {10, 20, 30, 40, 50};
 
         for (int i = 0; i < valores.length; i++) {
-            System.out.println("En array posicion " + i + " --> " + valores[i]);
+            System.out.println("FOR en array posicion " + i + " --> " + valores[i]);
         }
+
+        //Interruptores switch case
+        switch (estacion) {
+            case "verano":
+                System.out.println("SWITCH - Es verano");
+                break;
+            case "primavera":
+                System.out.println("SWITCH - Es primavera");
+                break;
+            case "invierno":
+                System.out.println("SWITCH - Es invierno");
+                break;
+            default:
+                System.out.println("SWITCH - Es otoño");
+                break;
+        }
+
+        //Switch Ejemplo en el que nos interesan case sin break
+        var dia = "SABADO";
+        switch (dia) {
+            case "LUNES":
+            case "MARTES":
+            case "MIERCOLES":
+            case "JUEVES":
+            case "VIERNES":
+                System.out.println("SWITCH - Es dia laborable");
+                break;
+        
+            default:
+                System.out.println("SWITCH - Hoy no es laborable");
+                break;
+        }
+
 
         
 
