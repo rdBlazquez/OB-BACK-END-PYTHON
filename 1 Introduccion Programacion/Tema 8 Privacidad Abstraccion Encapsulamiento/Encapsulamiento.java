@@ -6,6 +6,7 @@ public class Encapsulamiento {
     }
 }
 
+/*
 abstract class Vehiculo {
     private String tipo;
     private int velocidadMaxima;
@@ -32,4 +33,4 @@ abstract class Vehiculo {
 
     abstract String getSonido();
 
-}
+} */
